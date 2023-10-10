@@ -4979,7 +4979,6 @@ textarea.autosize.area-animated:focus {
   max-width: 50px;
 }
 
-/* Default custom select inspired by tympanus.net */
 div.cs-select {
   display: inline-block;
   vertical-align: middle;
@@ -8223,10 +8222,7 @@ Social Icons
   top: 0;
 }
 
-/* ---------------------------------------------------------------------- */
-/*  Links
-/* ---------------------------------------------------------------------- */
-/*from http://tympanus.net/Development/CreativeLinkEffects/*/
+
 nav.links {
   text-align: center;
 }
