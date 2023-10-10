@@ -11,7 +11,7 @@
 <%@ page import ="javax.sql.*" %>
 <%
 String name=request.getParameter("uname");
-java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_database","root","1234"); 
+java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_database","root",""); 
 Statement st= con.createStatement(); 
 String sql = "delete from patients_info where name="+name;
 

@@ -34,7 +34,7 @@ String driverName = "com.mysql.jdbc.Driver";
 String connectionUrl = "jdbc:mysql://localhost:3306/";
 String dbName = "hospital_database";
 String userId = "root";
-String password = "1234";
+String password = "";
 
 String sql=null;
 

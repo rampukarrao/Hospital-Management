@@ -126,7 +126,12 @@ p.sansserif {
 
   <div class="Box-body p-6">
         <article class="markdown-body entry-content" itemprop="text"><h1>Hospital Management System</h1>
-<p>This is a hospital management user interface for managing, monitoring and controlling the system in a Hospital. This application is developed using java, which mainly focuses on basic operations in a hospital like adding new patient information, and updating new information, assigning the doctor for patient. It features a familiar and well thought-out, an attractive online user interface, combined with strong management capabilities. The backend of the project is designed using MySQL, Java and front end using HTML, CSS, and Bootstrap.<br><b>Github:</b><a href="https://github.com/Anush-DP/Hospital-Management-System"> https://github.com/Anush-DP/Hospital-Management-System</a></p>
+<p>This is a hospital management user interface for managing, monitoring and controlling the system in a Hospital. 
+    This application is developed using java, which mainly focuses on basic operations in a hospital like adding new patient information, 
+    and updating new information, assigning the doctor for patient. It features a familiar and well thought-out, an attractive online user interface,
+    combined with strong management capabilities. The backend of the project is designed using MySQL, 
+    Java and front end using HTML, CSS, and Bootstrap.<br>
+</p>
 </article>
 </div>
   <br><br><footer>

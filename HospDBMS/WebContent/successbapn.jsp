@@ -15,7 +15,7 @@ String dname=request.getParameter("dname");
 	String time=request.getParameter("time");
 	String dspec=request.getParameter("dspec");
 	String pname=request.getParameter("pname");
-java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_database","root","1234"); 
+java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_database","root",""); 
 Statement st= con.createStatement(); 
 st.executeUpdate("insert into apn_info values ('"+pname+"','"+dname+"','"+dspec+"','"+date+"','"+time+"')"); 
 %>

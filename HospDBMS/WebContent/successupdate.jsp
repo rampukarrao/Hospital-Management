@@ -22,7 +22,7 @@ String pswd=request.getParameter("pwd");
 	String name=request.getParameter("name");
 
 	Class.forName("com.mysql.jdbc.Driver");
-java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_database","root","1234"); 
+java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_database","root",""); 
 Statement st= con.createStatement(); 
 st.executeUpdate("update patients_info set name='"+name+"',country='"+country+"',state='"+state+"',email='"+pemail+"',password='"+pswd+"',street='"+street+"',locality='"+locality+"',aadhar="+aadhar+",contact_no="+pno+" where name='"+Name+"'"); 
 try{

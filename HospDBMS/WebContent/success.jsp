@@ -20,7 +20,7 @@ String pswd=request.getParameter("pwd");
 	String state=request.getParameter("state");
 	String name=request.getParameter("name");
 	Class.forName("com.mysql.jdbc.Driver");
-java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_database","root","1234"); 
+java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_database","root","root"); 
 Statement st= con.createStatement(); 
 st.executeUpdate("insert into patients_info values ('"+name+"','"+pemail+"',"+pno+",'"+street+"','"+locality+"', '"+aadhar+"','"+state+"','"+country+"','"+pswd+"')"); 
 %>

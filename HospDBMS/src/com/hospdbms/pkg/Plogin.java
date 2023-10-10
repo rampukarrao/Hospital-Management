@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.sql.*;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
+import javax.servlet.http.*;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
@@ -30,7 +30,7 @@ public class Plogin extends HttpServlet {
 		String connectionUrl = "jdbc:mysql://localhost:3306/";
 		String dbName = "hospital_database";
 		String userId = "root";
-		String password = "1234";
+		String password = "";
 		String pwdd=null;
 		String name=request.getParameter("uname");
 	

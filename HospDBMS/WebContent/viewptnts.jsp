@@ -13,11 +13,11 @@
 <%@page import="java.sql.Connection"%>
 <%
 String id = request.getParameter("userId");
-String driverName = "com.mysql.jdbc.Driver";
+String driverName = "com.mysql.cj.jdbc.Driver";
 String connectionUrl = "jdbc:mysql://localhost:3306/";
 String dbName = "hospital_database";
 String userId = "root";
-String password = "1234";
+String password = "root";
 
 try {
 Class.forName(driverName);

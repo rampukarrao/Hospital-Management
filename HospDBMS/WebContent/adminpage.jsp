@@ -32,7 +32,7 @@
 <%@ page import ="javax.sql.*" %>
 <%
 Class.forName("com.mysql.jdbc.Driver");
-java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_database","root","1234"); 
+java.sql.Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/hospital_database","root",""); 
 Statement st= con.createStatement(); 
 String pt=null,dt=null,at=null;
 ResultSet resultSet;
